@@ -1,0 +1,387 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "desc",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "createTime",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "video_id",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "video_height",
+      "type": "year",
+      "format": "default"
+    },
+    {
+      "name": "video_width",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "video_duration",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "video_ratio",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "video_cover",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "video_originCover",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "video_dynamicCover",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "video_playAddr",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "video_downloadAddr",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "video_shareCover",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "video_reflowCover",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "video_bitrate",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "video_encodedType",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "video_format",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "video_videoQuality",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "video_encodeUserTag",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "video_codecType",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "video_definition",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "author_id",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "author_uniqueId",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "author_nickname",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "author_avatarThumb",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "author_avatarMedium",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "author_avatarLarger",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "author_signature",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "author_verified",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "author_secUid",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "author_secret",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "author_ftc",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "author_relation",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "author_openFavorite",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "author_commentSetting",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "author_duetSetting",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "author_stitchSetting",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "author_privateAccount",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "author_isADVirtual",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "music_id",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "music_title",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "music_playUrl",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "music_coverThumb",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "music_coverMedium",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "music_coverLarge",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "music_authorName",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "music_original",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "music_duration",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "music_album",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "stats_diggCount",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "stats_shareCount",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "stats_commentCount",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "stats_playCount",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "originalItem",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "officalItem",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "secret",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "forFriend",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "digged",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "itemCommentStatus",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "showNotPass",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "vl1",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "itemMute",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "authorStats_followingCount",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "authorStats_followerCount",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "authorStats_heartCount",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "authorStats_videoCount",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "authorStats_diggCount",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "authorStats_heart",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "privateItem",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "duetEnabled",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "stitchEnabled",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "shareEnabled",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "isAd",
+      "type": "boolean",
+      "format": "default"
+    },
+    {
+      "name": "duetDisplay",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "stitchDisplay",
+      "type": "integer",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

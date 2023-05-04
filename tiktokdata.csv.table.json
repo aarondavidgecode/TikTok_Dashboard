@@ -1,0 +1,688 @@
+{
+  "columns": [
+    {
+      "field": "id",
+      "title": "id",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 163
+    },
+    {
+      "field": "desc",
+      "title": "desc",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1038
+    },
+    {
+      "field": "createTime",
+      "title": "createTime",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 136
+    },
+    {
+      "field": "video_id",
+      "title": "video_id",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 163
+    },
+    {
+      "field": "video_height",
+      "title": "video_height",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 146
+    },
+    {
+      "field": "video_width",
+      "title": "video_width",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 142
+    },
+    {
+      "field": "video_duration",
+      "title": "video_duration",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 159
+    },
+    {
+      "field": "video_ratio",
+      "title": "video_ratio",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "alphanum",
+      "headerSort": true,
+      "width": 135
+    },
+    {
+      "field": "video_cover",
+      "title": "video_cover",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1769
+    },
+    {
+      "field": "video_originCover",
+      "title": "video_originCover",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1280
+    },
+    {
+      "field": "video_dynamicCover",
+      "title": "video_dynamicCover",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1260
+    },
+    {
+      "field": "video_playAddr",
+      "title": "video_playAddr",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 3556
+    },
+    {
+      "field": "video_downloadAddr",
+      "title": "video_downloadAddr",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 3556
+    },
+    {
+      "field": "video_shareCover",
+      "title": "video_shareCover",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 2765
+    },
+    {
+      "field": "video_reflowCover",
+      "title": "video_reflowCover",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1160
+    },
+    {
+      "field": "video_bitrate",
+      "title": "video_bitrate",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 148
+    },
+    {
+      "field": "video_encodedType",
+      "title": "video_encodedType",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 190
+    },
+    {
+      "field": "video_format",
+      "title": "video_format",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "alphanum",
+      "headerSort": true,
+      "width": 149
+    },
+    {
+      "field": "video_videoQuality",
+      "title": "video_videoQuality",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 185
+    },
+    {
+      "field": "video_encodeUserTag",
+      "title": "video_encodeUserTag",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 203
+    },
+    {
+      "field": "video_codecType",
+      "title": "video_codecType",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "alphanum",
+      "headerSort": true,
+      "width": 173
+    },
+    {
+      "field": "video_definition",
+      "title": "video_definition",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "alphanum",
+      "headerSort": true,
+      "width": 166
+    },
+    {
+      "field": "author_id",
+      "title": "author_id",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 163
+    },
+    {
+      "field": "author_uniqueId",
+      "title": "author_uniqueId",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 168
+    },
+    {
+      "field": "author_nickname",
+      "title": "author_nickname",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 174
+    },
+    {
+      "field": "author_avatarThumb",
+      "title": "author_avatarThumb",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1261
+    },
+    {
+      "field": "author_avatarMedium",
+      "title": "author_avatarMedium",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1256
+    },
+    {
+      "field": "author_avatarLarger",
+      "title": "author_avatarLarger",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1286
+    },
+    {
+      "field": "author_signature",
+      "title": "author_signature",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 498
+    },
+    {
+      "field": "author_verified",
+      "title": "author_verified",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 161
+    },
+    {
+      "field": "author_secUid",
+      "title": "author_secUid",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 641
+    },
+    {
+      "field": "author_secret",
+      "title": "author_secret",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 152
+    },
+    {
+      "field": "author_ftc",
+      "title": "author_ftc",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 131
+    },
+    {
+      "field": "author_relation",
+      "title": "author_relation",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 162
+    },
+    {
+      "field": "author_openFavorite",
+      "title": "author_openFavorite",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 196
+    },
+    {
+      "field": "author_commentSetting",
+      "title": "author_commentSetting",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 218
+    },
+    {
+      "field": "author_duetSetting",
+      "title": "author_duetSetting",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 187
+    },
+    {
+      "field": "author_stitchSetting",
+      "title": "author_stitchSetting",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 193
+    },
+    {
+      "field": "author_privateAccount",
+      "title": "author_privateAccount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 208
+    },
+    {
+      "field": "author_isADVirtual",
+      "title": "author_isADVirtual",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 184
+    },
+    {
+      "field": "music_id",
+      "title": "music_id",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 164
+    },
+    {
+      "field": "music_title",
+      "title": "music_title",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 207
+    },
+    {
+      "field": "music_playUrl",
+      "title": "music_playUrl",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 644
+    },
+    {
+      "field": "music_coverThumb",
+      "title": "music_coverThumb",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1263
+    },
+    {
+      "field": "music_coverMedium",
+      "title": "music_coverMedium",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1281
+    },
+    {
+      "field": "music_coverLarge",
+      "title": "music_coverLarge",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 1304
+    },
+    {
+      "field": "music_authorName",
+      "title": "music_authorName",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 188
+    },
+    {
+      "field": "music_original",
+      "title": "music_original",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 157
+    },
+    {
+      "field": "music_duration",
+      "title": "music_duration",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 162
+    },
+    {
+      "field": "music_album",
+      "title": "music_album",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 149
+    },
+    {
+      "field": "stats_diggCount",
+      "title": "stats_diggCount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 168
+    },
+    {
+      "field": "stats_shareCount",
+      "title": "stats_shareCount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 175
+    },
+    {
+      "field": "stats_commentCount",
+      "title": "stats_commentCount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 201
+    },
+    {
+      "field": "stats_playCount",
+      "title": "stats_playCount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 167
+    },
+    {
+      "field": "originalItem",
+      "title": "originalItem",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 142
+    },
+    {
+      "field": "officalItem",
+      "title": "officalItem",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 133
+    },
+    {
+      "field": "secret",
+      "title": "secret",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 104
+    },
+    {
+      "field": "forFriend",
+      "title": "forFriend",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 124
+    },
+    {
+      "field": "digged",
+      "title": "digged",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 109
+    },
+    {
+      "field": "itemCommentStatus",
+      "title": "itemCommentStatus",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 196
+    },
+    {
+      "field": "showNotPass",
+      "title": "showNotPass",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 151
+    },
+    {
+      "field": "vl1",
+      "title": "vl1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 83
+    },
+    {
+      "field": "itemMute",
+      "title": "itemMute",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 127
+    },
+    {
+      "field": "authorStats_followingCount",
+      "title": "authorStats_followingCount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 242
+    },
+    {
+      "field": "authorStats_followerCount",
+      "title": "authorStats_followerCount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 236
+    },
+    {
+      "field": "authorStats_heartCount",
+      "title": "authorStats_heartCount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 216
+    },
+    {
+      "field": "authorStats_videoCount",
+      "title": "authorStats_videoCount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 217
+    },
+    {
+      "field": "authorStats_diggCount",
+      "title": "authorStats_diggCount",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 211
+    },
+    {
+      "field": "authorStats_heart",
+      "title": "authorStats_heart",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 179
+    },
+    {
+      "field": "privateItem",
+      "title": "privateItem",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 138
+    },
+    {
+      "field": "duetEnabled",
+      "title": "duetEnabled",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 145
+    },
+    {
+      "field": "stitchEnabled",
+      "title": "stitchEnabled",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 151
+    },
+    {
+      "field": "shareEnabled",
+      "title": "shareEnabled",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 151
+    },
+    {
+      "field": "isAd",
+      "title": "isAd",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 93
+    },
+    {
+      "field": "duetDisplay",
+      "title": "duetDisplay",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 140
+    },
+    {
+      "field": "stitchDisplay",
+      "title": "stitchDisplay",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 146
+    }
+  ]
+}
