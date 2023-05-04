@@ -1,688 +1,697 @@
 {
   "columns": [
     {
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false,
+      "width": 61
+    },
+    {
       "field": "id",
       "title": "id",
+      "width": 163,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 163
+      "headerSort": true
     },
     {
       "field": "desc",
       "title": "desc",
+      "width": 1038,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1038
+      "headerSort": true
     },
     {
       "field": "createTime",
       "title": "createTime",
+      "width": 136,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 136
+      "headerSort": true
     },
     {
       "field": "video_id",
       "title": "video_id",
+      "width": 163,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 163
+      "headerSort": true
     },
     {
       "field": "video_height",
       "title": "video_height",
+      "width": 146,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 146
+      "headerSort": true
     },
     {
       "field": "video_width",
       "title": "video_width",
+      "width": 142,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 142
+      "headerSort": true
     },
     {
       "field": "video_duration",
       "title": "video_duration",
+      "width": 159,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 159
+      "headerSort": true
     },
     {
       "field": "video_ratio",
       "title": "video_ratio",
+      "width": 135,
       "minWidth": 40,
       "resizable": true,
       "sorter": "alphanum",
-      "headerSort": true,
-      "width": 135
+      "headerSort": true
     },
     {
       "field": "video_cover",
       "title": "video_cover",
+      "width": 1769,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1769
+      "headerSort": true
     },
     {
       "field": "video_originCover",
       "title": "video_originCover",
+      "width": 1280,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1280
+      "headerSort": true
     },
     {
       "field": "video_dynamicCover",
       "title": "video_dynamicCover",
+      "width": 1260,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1260
+      "headerSort": true
     },
     {
       "field": "video_playAddr",
       "title": "video_playAddr",
+      "width": 3556,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 3556
+      "headerSort": true
     },
     {
       "field": "video_downloadAddr",
       "title": "video_downloadAddr",
+      "width": 3556,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 3556
+      "headerSort": true
     },
     {
       "field": "video_shareCover",
       "title": "video_shareCover",
+      "width": 2765,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 2765
+      "headerSort": true
     },
     {
       "field": "video_reflowCover",
       "title": "video_reflowCover",
+      "width": 1160,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1160
+      "headerSort": true
     },
     {
       "field": "video_bitrate",
       "title": "video_bitrate",
+      "width": 148,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 148
+      "headerSort": true
     },
     {
       "field": "video_encodedType",
       "title": "video_encodedType",
+      "width": 190,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 190
+      "headerSort": true
     },
     {
       "field": "video_format",
       "title": "video_format",
+      "width": 149,
       "minWidth": 40,
       "resizable": true,
       "sorter": "alphanum",
-      "headerSort": true,
-      "width": 149
+      "headerSort": true
     },
     {
       "field": "video_videoQuality",
       "title": "video_videoQuality",
+      "width": 185,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 185
+      "headerSort": true
     },
     {
       "field": "video_encodeUserTag",
       "title": "video_encodeUserTag",
+      "width": 203,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 203
+      "headerSort": true
     },
     {
       "field": "video_codecType",
       "title": "video_codecType",
+      "width": 173,
       "minWidth": 40,
       "resizable": true,
       "sorter": "alphanum",
-      "headerSort": true,
-      "width": 173
+      "headerSort": true
     },
     {
       "field": "video_definition",
       "title": "video_definition",
+      "width": 166,
       "minWidth": 40,
       "resizable": true,
       "sorter": "alphanum",
-      "headerSort": true,
-      "width": 166
+      "headerSort": true
     },
     {
       "field": "author_id",
       "title": "author_id",
+      "width": 163,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 163
+      "headerSort": true
     },
     {
       "field": "author_uniqueId",
       "title": "author_uniqueId",
+      "width": 168,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 168
+      "headerSort": true
     },
     {
       "field": "author_nickname",
       "title": "author_nickname",
+      "width": 174,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 174
+      "headerSort": true
     },
     {
       "field": "author_avatarThumb",
       "title": "author_avatarThumb",
+      "width": 1261,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1261
+      "headerSort": true
     },
     {
       "field": "author_avatarMedium",
       "title": "author_avatarMedium",
+      "width": 1256,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1256
+      "headerSort": true
     },
     {
       "field": "author_avatarLarger",
       "title": "author_avatarLarger",
+      "width": 1286,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1286
+      "headerSort": true
     },
     {
       "field": "author_signature",
       "title": "author_signature",
+      "width": 498,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 498
+      "headerSort": true
     },
     {
       "field": "author_verified",
       "title": "author_verified",
+      "width": 161,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 161
+      "headerSort": true
     },
     {
       "field": "author_secUid",
       "title": "author_secUid",
+      "width": 641,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 641
+      "headerSort": true
     },
     {
       "field": "author_secret",
       "title": "author_secret",
+      "width": 152,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 152
+      "headerSort": true
     },
     {
       "field": "author_ftc",
       "title": "author_ftc",
+      "width": 131,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 131
+      "headerSort": true
     },
     {
       "field": "author_relation",
       "title": "author_relation",
+      "width": 162,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 162
+      "headerSort": true
     },
     {
       "field": "author_openFavorite",
       "title": "author_openFavorite",
+      "width": 196,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 196
+      "headerSort": true
     },
     {
       "field": "author_commentSetting",
       "title": "author_commentSetting",
+      "width": 218,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 218
+      "headerSort": true
     },
     {
       "field": "author_duetSetting",
       "title": "author_duetSetting",
+      "width": 187,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 187
+      "headerSort": true
     },
     {
       "field": "author_stitchSetting",
       "title": "author_stitchSetting",
+      "width": 193,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 193
+      "headerSort": true
     },
     {
       "field": "author_privateAccount",
       "title": "author_privateAccount",
+      "width": 208,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 208
+      "headerSort": true
     },
     {
       "field": "author_isADVirtual",
       "title": "author_isADVirtual",
+      "width": 184,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 184
+      "headerSort": true
     },
     {
       "field": "music_id",
       "title": "music_id",
+      "width": 164,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 164
+      "headerSort": true
     },
     {
       "field": "music_title",
       "title": "music_title",
+      "width": 207,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 207
+      "headerSort": true
     },
     {
       "field": "music_playUrl",
       "title": "music_playUrl",
+      "width": 644,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 644
+      "headerSort": true
     },
     {
       "field": "music_coverThumb",
       "title": "music_coverThumb",
+      "width": 1263,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1263
+      "headerSort": true
     },
     {
       "field": "music_coverMedium",
       "title": "music_coverMedium",
+      "width": 1281,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1281
+      "headerSort": true
     },
     {
       "field": "music_coverLarge",
       "title": "music_coverLarge",
+      "width": 1304,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 1304
+      "headerSort": true
     },
     {
       "field": "music_authorName",
       "title": "music_authorName",
+      "width": 188,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 188
+      "headerSort": true
     },
     {
       "field": "music_original",
       "title": "music_original",
+      "width": 157,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 157
+      "headerSort": true
     },
     {
       "field": "music_duration",
       "title": "music_duration",
+      "width": 162,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 162
+      "headerSort": true
     },
     {
       "field": "music_album",
       "title": "music_album",
+      "width": 149,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 149
+      "headerSort": true
     },
     {
       "field": "stats_diggCount",
       "title": "stats_diggCount",
+      "width": 168,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 168
+      "headerSort": true
     },
     {
       "field": "stats_shareCount",
       "title": "stats_shareCount",
+      "width": 175,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 175
+      "headerSort": true
     },
     {
       "field": "stats_commentCount",
       "title": "stats_commentCount",
+      "width": 201,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 201
+      "headerSort": true
     },
     {
       "field": "stats_playCount",
       "title": "stats_playCount",
+      "width": 167,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 167
+      "headerSort": true
     },
     {
       "field": "originalItem",
       "title": "originalItem",
+      "width": 142,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 142
+      "headerSort": true
     },
     {
       "field": "officalItem",
       "title": "officalItem",
+      "width": 133,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 133
+      "headerSort": true
     },
     {
       "field": "secret",
       "title": "secret",
+      "width": 104,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 104
+      "headerSort": true
     },
     {
       "field": "forFriend",
       "title": "forFriend",
+      "width": 124,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 124
+      "headerSort": true
     },
     {
       "field": "digged",
       "title": "digged",
+      "width": 109,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 109
+      "headerSort": true
     },
     {
       "field": "itemCommentStatus",
       "title": "itemCommentStatus",
+      "width": 196,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 196
+      "headerSort": true
     },
     {
       "field": "showNotPass",
       "title": "showNotPass",
+      "width": 151,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 151
+      "headerSort": true
     },
     {
       "field": "vl1",
       "title": "vl1",
+      "width": 83,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 83
+      "headerSort": true
     },
     {
       "field": "itemMute",
       "title": "itemMute",
+      "width": 127,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 127
+      "headerSort": true
     },
     {
       "field": "authorStats_followingCount",
       "title": "authorStats_followingCount",
+      "width": 242,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 242
+      "headerSort": true
     },
     {
       "field": "authorStats_followerCount",
       "title": "authorStats_followerCount",
+      "width": 236,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 236
+      "headerSort": true
     },
     {
       "field": "authorStats_heartCount",
       "title": "authorStats_heartCount",
+      "width": 216,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 216
+      "headerSort": true
     },
     {
       "field": "authorStats_videoCount",
       "title": "authorStats_videoCount",
+      "width": 217,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 217
+      "headerSort": true
     },
     {
       "field": "authorStats_diggCount",
       "title": "authorStats_diggCount",
+      "width": 211,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 211
+      "headerSort": true
     },
     {
       "field": "authorStats_heart",
       "title": "authorStats_heart",
+      "width": 179,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 179
+      "headerSort": true
     },
     {
       "field": "privateItem",
       "title": "privateItem",
+      "width": 138,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 138
+      "headerSort": true
     },
     {
       "field": "duetEnabled",
       "title": "duetEnabled",
+      "width": 145,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 145
+      "headerSort": true
     },
     {
       "field": "stitchEnabled",
       "title": "stitchEnabled",
+      "width": 151,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 151
+      "headerSort": true
     },
     {
       "field": "shareEnabled",
       "title": "shareEnabled",
+      "width": 151,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 151
+      "headerSort": true
     },
     {
       "field": "isAd",
       "title": "isAd",
+      "width": 93,
       "minWidth": 40,
       "resizable": true,
       "sorter": "string",
-      "headerSort": true,
-      "width": 93
+      "headerSort": true
     },
     {
       "field": "duetDisplay",
       "title": "duetDisplay",
+      "width": 140,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 140
+      "headerSort": true
     },
     {
       "field": "stitchDisplay",
       "title": "stitchDisplay",
+      "width": 146,
       "minWidth": 40,
       "resizable": true,
       "sorter": "number",
-      "headerSort": true,
-      "width": 146
+      "headerSort": true
     }
   ]
 }
